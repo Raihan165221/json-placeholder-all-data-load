@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: cadetblue;
+}
+
+.common{
+        background-color: cadetblue;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+   
+}
